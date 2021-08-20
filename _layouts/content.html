@@ -4,4 +4,20 @@ layout-type: #container | container-fluid
 custom-stylesheet: 
 ---
 
+<div class="heading">
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.description }}</p>
+  <ul class="list-inline">
+    {% for tag in page.tags %}
+      <li class="list-inline-item"><span class="badge badge-primary">{{ tag }}</span></li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% if page.live-site %}
+  <a class="btn btn-primary" target="_blank" href="{{ page.live-site }}">View Site</a>
+{% endif %}
+
+
+
 {{ content }}
