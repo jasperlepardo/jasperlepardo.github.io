@@ -84,6 +84,89 @@ b, strong {
   }  
 } */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Footer **********/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* margin-top: 55px; */
+  margin-bottom: 281px;
+}
+
+
+@media (min-width: 992px) {
+  body {
+      /* margin-top: 155px; */
+      margin-bottom: 271px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+      margin-bottom: 308px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .card {
   transition: all 200ms;
 }

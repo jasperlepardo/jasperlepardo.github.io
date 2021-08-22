@@ -66,18 +66,14 @@ transition:
     {% assign works = site.works | where: "categories", "featured"%}
     {% for work in works %}
       <a class="card shadow-sm" id="{{ work.name }}" target="_blank" href="{{ work.external-url | default: work.url }}">
-        {% if work.thumbnail %}
-          <img class="card-img-top" loading="lazy" src="{{ site.baseurl }}/assets/img/{{ work.thumbnail }}" alt="" />
-          {% else %}
-          <img class="card-img-top" loading="lazy" src="https://dummyimage.com/1600x1200/fafafa/fafafa.png" alt="" />
-        {% endif %}
+        <img class="card-img-top" loading="lazy" src="{{ site.baseurl }}/assets/img/{{ work.title | downcase | replace: ' ','-' }}.png" alt="" />
         <div class="card-body">
           <ul class="list-inline">
             {% for tag in work.tags %}
               <li class="list-inline-item">{{ tag }}</li>
             {% endfor %}
           </ul>
-          <p class="card-title lead"><b>{{ work.title }}</b></p>
+          <p class="card-title lead"><b>{{ work.name }}</b></p>
           <p class="card-text">{{ work.description }}</p>
         </div>
       </a>
