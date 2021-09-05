@@ -6,7 +6,7 @@ description: I'm a Full-Stack Designer based in the Philippines. I love to solve
 # Open Graph Specific Tags
 open-graph:
   type: "website"
-  image: "/assets/img/og-image_jsprlprd.png"
+  image: "/assets/img/og-facebook.png"
 
 twitter:
   type: "summary" #The card type, which will be one of “summary”, “summary_large_image”, “app”, or “player”.
