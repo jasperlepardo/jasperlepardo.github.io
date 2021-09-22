@@ -6,23 +6,22 @@ custom-stylesheet:
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
   <a class="navbar-brand" href="{{ site.baseurl }}/"><b>JASPER LEPARDO</b></a>
-  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="tel:{{ site.data.personal-information.mobile-number }}"><i class="fas fa-mobile-alt"></i>{{ site.data.personal-information.mobile-number }}</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="mailto:{{ site.data.personal-information.email-address }}"><i class="far fa-envelope"></i>{{ site.data.personal-information.email-address }}</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link"  href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/jasperlepardo'});return false;">Let's connect</a>
       </li>
     </ul>
-    <form class="form-inline ml-auto">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <a class="btn btn-primary btn-lg" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/jsprlprd'});return false;">Let's connect</a>
-    </form>
-  </div> -->
+  </div>
 </nav>
 
 <main class="{% if page.layout-type %}{{page.layout-type}}{% else %}{{ layout.layout-type | default: 'container'}}{%endif%}">
