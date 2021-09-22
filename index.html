@@ -14,8 +14,8 @@ transition:
       </div>
       <div class="media-content align-self-center">
         <div class="heading pt-0">
-          <h1 class="heading-title">Hi! I'm Jasper.<br>I design stuffs.</h1>
-          <p class="heading-subtitle lead">I'm a Full-Stack Designer based in the Philippines. I love to solve design problems and isn't afraid to code.</p>  
+          <h1 class="heading-title h2">Hi! I'm Jasper, a Full-Stack Designer based in the Philippines.</h1>
+          <p class="heading-subtitle lead">I love to solve design problems and isn't afraid to code.</p>  
         </div>
         <div class="grid" id="whoiam">
           <div>
@@ -44,8 +44,8 @@ transition:
 
 <div class="wrapper">
   <div class="heading">
-    <h2 class="heading-title">My Experience.</h2>
-    <p class="heading-subtitle lead">Over the past 6 years, I've designed products and helped tailor experiences for some amazing brands.</p>
+    <h2 class="heading-title h3">My Experience.</h2>
+    <p class="heading-subtitle">Over the past 6 years, I've designed products and helped tailor experiences for some amazing brands.</p>
   </div>
   <div class="grid" id="work-exprience">
     {% for work in site.data.resume.employment-history %}
@@ -60,7 +60,7 @@ transition:
 
 <div class="wrapper">
   <div class="heading">
-    <h2 class="heading-title">My Works.</h2>
+    <h2 class="heading-title h3">My Works.</h2>
   </div>
   <div class="grid" id="portfolio">
     {% assign works = site.works | where: "categories", "featured"%}

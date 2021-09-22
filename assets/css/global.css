@@ -103,6 +103,7 @@ b, strong {
 html {
   position: relative;
   min-height: 100%;
+  font-size: 18px;
 }
 
 body {
@@ -398,6 +399,9 @@ footer nav ul li a {
 }
 
 
+.heading-subtitle.lead {
+  font-size: 1.5rem;
+}
 
 
 
