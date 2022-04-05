@@ -60,7 +60,7 @@ transition:
       {% endfor %}
     </ul>
 
-    <h3 class="h4">Trainings/Seminars</h3>
+    <!-- <h3 class="h4">Trainings/Seminars</h3>
     <ul class="list-unstyled" id="reference-section">
       {% for workshop in site.data.resume.trainings-and-seminars %}
         <li>
@@ -69,9 +69,9 @@ transition:
           {{ workshop.date }}
         </li>
       {% endfor %}
-    </ul>
+    </ul> -->
 
-    <h3 class="h4"><b>Awards &amp; Recognition</b></h3>
+    <!-- <h3 class="h4"><b>Awards &amp; Recognition</b></h3>
     <ul class="list-unstyled" id="reference-section">
       {% for award in site.data.resume.awards-and-recognition %}
         <li>
@@ -81,7 +81,7 @@ transition:
           {{ award.date }}
         </li>
       {% endfor %}
-    </ul>
+    </ul> -->
   
     <!-- <h3 class="h4"><b>Reference</b></h3>
     <ul class="list-unstyled" id="reference-section">
@@ -110,40 +110,40 @@ transition:
     <h2 class="h3">Work Experiences</h2>
     {% for work in site.data.resume.employment-history %}
     <div class="row">
-      <div class="col-lg-3">{{ work.start-date | date: "%b '%y" }} <i>to</i> {% if work.end-date %}{{ work.end-date | date: "%b '%y" }}{% else %}Present {% endif %}</div>
-      <div class="col-lg-9">
+      <div class="col">
         <p>
           <span><b>{{ work.position }}</b></span><br/>
           {{ work.company }} - {{ work.location }}
         </p>
+      </div>
+      <div class="col-auto">{{ work.start-date | date: "%b %Y" }} <i>to</i> {% if work.end-date %}{{ work.end-date | date: "%b %Y" }}{% else %}Present{% endif %}</div>
+      <!-- <ul class="small">
+        {% for desciption in work.descriptions %}
+        <li>{{ desciption }}</li>
+        {% endfor %}
+      </ul> -->
 
+      <!-- {% if work.summary %}
+        {% for summary in work.summary %}
+          <p>{{ summary }}</p>
+        {% endfor %}
+        {% else %}
         <ul class="small">
           {% for desciption in work.descriptions %}
           <li>{{ desciption }}</li>
           {% endfor %}
         </ul>
+      {% endif %} -->
 
-        <!-- {% if work.summary %}
-          {% for summary in work.summary %}
-            <p>{{ summary }}</p>
+      <!-- {% if work.projects %}
+        <p><b>Key Projects/Achievements</b></p>
+        <ul>
+          {% for project in work.projects %}
+          <li><a target="_blank" href="{{ project.url }}">{{ project.name }}</a></li>
           {% endfor %}
-          {% else %}
-          <ul class="small">
-            {% for desciption in work.descriptions %}
-            <li>{{ desciption }}</li>
-            {% endfor %}
-          </ul>
-        {% endif %} -->
+        </ul>
+      {% endif %} -->
 
-        <!-- {% if work.projects %}
-          <p><b>Key Projects/Achievements</b></p>
-          <ul>
-            {% for project in work.projects %}
-            <li><a target="_blank" href="{{ project.url }}">{{ project.name }}</a></li>
-            {% endfor %}
-          </ul>
-        {% endif %} -->
-      </div>
     </div>
     {% endfor %}
 
@@ -166,10 +166,10 @@ transition:
   </div>
 </div>
 
-<div class="row d-none d-print-block mt-5 pt-5">
+<div class="row d-none d-print-block mt-0">
   <div class="col-md-8 offset-md-4">
     <p>I hereby certify that all information stated herewith are true and correct to the best of my knowledge and beliefs.</p>
-    <div class="row mt-5">
+    <div class="row">
       <div class="col-md-6 offset-md-6">
         <p>
           <b>{{ site.data.personal-information.name | upcase }}</b><br/>
@@ -178,7 +178,7 @@ transition:
         <p>
           <b>M</b>: {{ site.data.personal-information.mobile-number }}<br/>
           <b>E</b>: {{ site.data.personal-information.email-address }}<br/>
-          <b>S</b>: {{ site.data.personal-information.skype }}
+          <b>S</b>: <a href="{{ site.data.personal-information.skype }}">jasperlepardo</a>
         </p>
         <a href="{{ site.data.personal-information.website }}">{{ site.data.personal-information.website }}</a>
       </div>
