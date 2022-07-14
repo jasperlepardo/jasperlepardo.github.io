@@ -1,66 +1,62 @@
----
 name: Jasper John L. Lepardo
 title: Full-Stack Designer
-mobile-number: "(0917) 116 1268"
+mobile-number: (0917) 116 1268
 email-address: jasperlepardo@gmail.com
-home-address: Mendez-Nuñez, Cavite, PH
-website: https://www.jasperlepardo.com
-skype: jasperlepardo
-summary: With 6 years of experience in the field of Web Design & Development, I hold
-  a strong skill set in both creative and technical. I am highly interested in further
-  exposure in the field of User Experience Design, which will help me create a more
-  user-centered interface.
+home-address: Tanza, Cavite, PH
+website: 'jasperlepardo.github.io/'
+skype: 'https://join.skype.com/invite/uTix5doXDjvE'
+summary: With 8 years of experience in the field of Web Design & Development, I hold a strong skill set in both creative and technical. I am highly interested in further exposure in the field of User Experience Design, which will help me create a more user-centered interface.
 skills:
-- Brand and Identity
-- Design System
-- Front-End Design
-- Graphic Design
-- Interaction Design
-- Mobile App Design
-- Motion Graphics
-- Prototyping
-- Responsive Web Design
-- UI/UX Design
-- Visual Design
-- Wireframing
+  - Brand and Identity
+  - Design System
+  - Front-End Design
+  - Graphic Design
+  - Interaction Design
+  - Mobile App Design
+  - Motion Graphics
+  - Prototyping
+  - Responsive Web Design
+  - UI/UX Design
+  - Visual Design
+  - Wireframing
 tools:
-- design:
-  - Adobe After Effects
-  - Adobe XD
-  - Adobe Illustrator
-  - Adobe InDesign
-  - Adobe Photoshop
-  - Axure
-  - Figma
-  - Invision
-  - Sketch
-- development:
-  - HTML 5
-  - CSS 3
-  - Github Pages
-  - JavaScript
-  - Jekyll
-  - jQuery
-  - Sass/Less
+  - design:
+    - Adobe After Effects
+    - Adobe XD
+    - Adobe Illustrator
+    - Adobe InDesign
+    - Adobe Photoshop
+    - Axure
+    - Figma
+    - Invision
+    - Sketch
+  - development:
+    - HTML 5
+    - CSS 3
+    - Github Pages
+    - JavaScript
+    - Jekyll
+    - jQuery
+    - Sass/Less
 social-media:
-- name: Behance
-  icon: fab fa-behance-square
-  url: https://www.behance.net/jsprlprd/
-- name: Dribble
-  icon: fab fa-dribbble-square
-  url: https://dribbble.com/jsprlprd/
-- name: Facebook
-  icon: fab fa-facebook-square
-  url: https://www.facebook.com/jsprlprd/
-- name: Github
-  icon: fab fa-github-square
-  url: https://github.com/jsprlprd/
-- name: Instagram
-  icon: fab fa-instagram-square
-  url: https://www.instagram.com/jsprlprd/
-- name: LinkedIn
-  icon: fab fa-linkedin
-  url: https://www.linkedin.com/in/jsprlprd/
-- name: Twitter
-  icon: fab fa-twitter-square
-  url: https://twitter.com/jsprlprd/
+  - name: Behance
+    icon: fab fa-behance-square
+    url: https://www.behance.net/jasperlepardo/
+  - name: Dribble
+    icon: fab fa-dribbble-square
+    url: https://dribbble.com/jasperlepardo/
+  - name: Facebook
+    icon: fab fa-facebook-square
+    url: https://www.facebook.com/jasperlepardo/
+  - name: Github
+    icon: fab fa-github-square
+    url: https://github.com/jasperlepardo/
+  - name: Instagram
+    icon: fab fa-instagram-square
+    url: https://www.instagram.com/jasperlepardo/
+  - name: LinkedIn
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/jasperlepardo/
+  # - name: Twitter
+  #   icon: fab fa-twitter-square
+  #   url: https://twitter.com/jsprlprd/
