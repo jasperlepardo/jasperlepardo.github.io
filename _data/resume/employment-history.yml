@@ -1,11 +1,4 @@
 ---
-- position: UI/UX Design Consultant
-  company: Kwik Insure
-  website: https://www.kwik.insure
-  location: Remote
-  start-date: October 5, 2020
-  end-date: Present
-  descriptions: ''
 - position: Founder & CEO, Head of Design
   company: JSPR.Design
   website: https://www.jspr.design
@@ -13,6 +6,13 @@
   start-date: May 12, 2021
   end-date: 
   descriptions: 
+- position: UI/UX Design Consultant
+  company: Kwik Insure
+  website: https://www.kwik.insure
+  location: Remote
+  start-date: October 5, 2020
+  end-date: Present
+  descriptions: ''
 - position: UI/UX Designer (Usability Engineer II)
   company: Samsung Research Philippines
   website: https://research.samsung.com/srph
