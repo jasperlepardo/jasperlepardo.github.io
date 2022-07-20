@@ -117,11 +117,13 @@ transition:
         </p>
       </div>
       <div class="col-auto">{{ work.start-date | date: "%b %Y" }} <i>to</i> {% if work.end-date %}{{ work.end-date | date: "%b %Y" }}{% else %}Present{% endif %}</div>
-      <ul class="small">
-        {% for desciption in work.descriptions %}
-        <li>{{ desciption }}</li>
-        {% endfor %}
-      </ul>
+      {% if work.descriptions %}
+        <ul class="small">
+          {% for desciption in work.descriptions %}
+          <li>{{ desciption }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
 
       <!-- {% if work.summary %}
         {% for summary in work.summary %}
