@@ -1,17 +1,17 @@
 ---
-# - position: Founder & CEO, Head of Design
-#   company: JSPR.Design
-#   website: https://www.jspr.design
-#   location: Tanza, Cavite, PH
-#   start-date: April 7, 2014
-#   end-date: 
-#   descriptions: 
 - position: UI/UX Design Consultant
-  company: Kwik.insure
-  website: https://www.kwik.insure
+  company: Freelance
+  website: 
   location: Remote
-  start-date: October 5, 2020
-  end-date:
+  start-date: April 7, 2014
+  end-date: 
+  descriptions: 
+# - position: UI/UX Design Consultant
+#   company: Kwik.insure
+#   website: https://www.kwik.insure
+#   location: Remote
+#   start-date: October 5, 2020
+#   end-date:
   descriptions: 
   - Collaborate with project management and engineering to define and implement innovative solutions for the product direction, visuals and experience;
   - Execute all visual design stages from concept to final hand-off to engineering;
