@@ -11,7 +11,7 @@ transition:
       <img class="profile-picture rounded" src="{{ site.baseurl }}/assets/img/profile-picture.jpg" alt="" />
     </div>
     <div class="col-md-8 align-self-center text-center text-md-left">
-      <h1>{{ site.data.personal-information.name }}</h1>
+      <h1 class="h2">{{ site.data.personal-information.name }}</h1>
       <p class="lead">{{ site.data.personal-information.title }}</p>
       <ul class="list-unstyled list-columns two-columns" id="details-section">
         <li>
@@ -51,6 +51,15 @@ transition:
       {% endfor %}
     </ul>
 
+    <p><b>Collaboration</b></p>
+    <ul class="list-inline">
+      {% for tools in site.data.personal-information.tools %}
+        {% for collaboration-tools in tools.collaboration %}
+          <li class="list-inline-item">{{ collaboration-tools }}</li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+    
     <p><b>Programming</b></p>
     <ul class="list-inline">
       {% for tools in site.data.personal-information.tools %}
@@ -60,7 +69,7 @@ transition:
       {% endfor %}
     </ul>
 
-    <!-- <h3 class="h4">Trainings/Seminars</h3>
+    <h3 class="h4">Trainings/Seminars</h3>
     <ul class="list-unstyled" id="reference-section">
       {% for workshop in site.data.resume.trainings-and-seminars %}
         <li>
@@ -69,7 +78,7 @@ transition:
           {{ workshop.date }}
         </li>
       {% endfor %}
-    </ul> -->
+    </ul>
 
     <!-- <h3 class="h4"><b>Awards &amp; Recognition</b></h3>
     <ul class="list-unstyled" id="reference-section">
@@ -117,13 +126,15 @@ transition:
         </p>
       </div>
       <div class="col-auto">{{ work.start-date | date: "%b %Y" }} <i>to</i> {% if work.end-date %}{{ work.end-date | date: "%b %Y" }}{% else %}Present{% endif %}</div>
-      {% if work.descriptions %}
-        <ul class="small">
-          {% for desciption in work.descriptions %}
-          <li>{{ desciption }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+      <div class="col-12 pl-0 pr-0">
+        {% if work.descriptions %}
+          <ul class="small">
+            {% for desciption in work.descriptions %}
+            <li>{{ desciption }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
 
       <!-- {% if work.summary %}
         {% for summary in work.summary %}

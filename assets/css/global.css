@@ -314,8 +314,8 @@ a.card:hover .card-img-overlay {
 
 
 .wrapper {
-  padding-top: clamp(40px, 8%, 80px);
-  padding-bottom: clamp(40px, 8%, 80px);
+  margin-top: clamp(40px, 8%, 80px);
+  margin-bottom: clamp(40px, 8%, 80px);
 }
 
 

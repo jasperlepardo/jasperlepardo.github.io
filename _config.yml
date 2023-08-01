@@ -1,7 +1,7 @@
 url: "https://www.jasperlepardo.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Jasper Lepardo | I'm a Designer" # the name of your site, e.g. ACME Corp.
-description: I'm a Full-Stack Designer based in the Philippines. I love to solve design problems and isn't afraid to code.
+description: I'm a Designer based in the Philippines. I love to solve design problems and isn't afraid to code.
 
 # Open Graph Specific Tags
 open-graph:

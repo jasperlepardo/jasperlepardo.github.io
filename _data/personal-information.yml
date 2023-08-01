@@ -1,23 +1,30 @@
 name: Jasper John L. Lepardo
-title: Full-Stack Designer
-mobile-number: (0917) 116 1268
-email-address: jasperlepardo@gmail.com
+title: Senior UI/UX Designer
+mobile-number: +63 917 116 1268
+email-address: me@jasperlepardo.com
 home-address: Tanza, Cavite, PH
-website: 'jasperlepardo.github.io'
+website: 'http://www.jasperlepardo.com'
 skype: 'https://join.skype.com/invite/uTix5doXDjvE'
-summary: With 8 years of experience in the field of Web Design & Development, I hold a strong skill set in both creative and technical. I am highly interested in further exposure in the field of User Experience Design, which will help me create a more user-centered interface.
+summary: With 9 years of hands-on experience in Web Design & Development, I've nurtured a unique blend of creative flair and technical know-how. My journey has exposed me to diverse projects, where I've relished crafting interfaces that seamlessly merge aesthetics with functionality.
 skills:
   - Brand and Identity
+  - Customer Journey Mapping
   - Design System
+  - Design Thinking
+  - Design Sprint
   - Front-End Design
   - Graphic Design
   - Interaction Design
   - Mobile App Design
   - Motion Graphics
+  - Persona
   - Prototyping
   - Responsive Web Design
   - UI/UX Design
+  - User Testing
+  - User Interview
   - Visual Design
+  - Web App Design
   - Wireframing
 tools:
   - design:
@@ -30,6 +37,12 @@ tools:
     - Figma
     - Invision
     - Sketch
+  - collaboration:
+    - JIRA
+    - Loom
+    - Miro
+    - Notion
+    - Slack
   - development:
     - HTML 5
     - CSS 3
