@@ -1,19 +1,19 @@
 ---
-- position: UI/UX Design Consultant
-  company: Freelance
-  website: 
-  location: Remote
-  start-date: April 7, 2014
-  end-date: 
-  descriptions:
-  - <b>RallyPoint</b> | Social Media App for ormer and current members of the US military
-  - <b>Senti AI</b>  | Application for Tax Filing
-  - <b>Kwik.Insure</b> | A Marketplace for Insurance Products
-  - <b>RideRadar</b> | B2C Delivery Aggregator
-  - <b>The Farmer's Market</b> | A subscription-based marketplace for Fresh Produced
-  - <b>Sante</b> | Ecommerce application for a multilevel marketing company
-  - <b>Phollowup</b> | Appointment Management System for Small Business
-  - <b>Tiaxa</b> | Hotel Analytics tool
+# - position: UI/UX Design Consultant
+#   company: Freelance
+#   website: 
+#   location: Remote
+#   start-date: April 7, 2014
+#   end-date: 
+#   descriptions:
+#   - <b>RallyPoint</b> | Social Media App for ormer and current members of the US military
+#   - <b>Senti AI</b>  | Application for Tax Filing
+#   - <b>Kwik.Insure</b> | A Marketplace for Insurance Products
+#   - <b>RideRadar</b> | B2C Delivery Aggregator
+#   - <b>The Farmer's Market</b> | A subscription-based marketplace for Fresh Produced
+#   - <b>Sante</b> | Ecommerce application for a multilevel marketing company
+#   - <b>Phollowup</b> | Appointment Management System for Small Business
+#   - <b>Tiaxa</b> | Hotel Analytics tool
 - position: Senior UI/UX Designer
   company: CloudEats
   website: http://www.cloudeats.com
@@ -35,13 +35,20 @@
   start-date: May 28, 2022
   end-date: March 3, 2023
   descriptions: 
-- position: UI/UX Designer
-  company: FanHeat
-  website: https://www.fanheat.com/
-  location: Remote
-  start-date: February 14, 2022
-  end-date: May 7, 2022
-  descriptions: 
+  - Collaborate with project management and engineering to define and implement innovative solutions for the product direction, visuals and experience;
+  - Execute all visual design stages from concept to final hand-off to engineering;
+  - Conceptualise original ideas that bring simplicity and user friendliness to complex design roadblocks;
+  - Create wire-frames, storyboards, user flows, process flows and site maps to effectively communicate interaction and design ideas;
+  - Present and defend designs and key milestone deliverable to peers and executive level stakeholders;
+  - Conduct user research and evaluate user feedback;
+  - Establish and promote design guidelines, best practices and standards.
+# - position: UI/UX Designer
+#   company: FanHeat
+#   website: https://www.fanheat.com/
+#   location: Remote
+#   start-date: February 14, 2022
+#   end-date: May 7, 2022
+#   descriptions: 
 - position: UI/UX Designer (Usability Engineer II)
   company: Samsung Research Philippines
   website: https://research.samsung.com/srph
