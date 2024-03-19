@@ -16,6 +16,7 @@
 #   - <b>Tiaxa</b> | Hotel Analytics tool
 - position: Senior UI/UX Designer
   company: CloudEats
+  employee-type: Full-time
   website: http://www.cloudeats.com
   location: Taguig, Manila, PH
   start-date: November 14, 2022
@@ -30,8 +31,9 @@
   - Establish and promote design guidelines, best practices and standards.
 - position: UI/UX Designer
   company: ShiftCare Pty Ltd
+  employee-type: Independent Contractor
   website: http://www.shiftcare.com
-  location: Remote (Sydney, NSW, AU)
+  location: Sydney, NSW, AU
   start-date: May 28, 2022
   end-date: March 3, 2023
   descriptions: 
@@ -42,15 +44,17 @@
   - Present and defend designs and key milestone deliverable to peers and executive level stakeholders;
   - Conduct user research and evaluate user feedback;
   - Establish and promote design guidelines, best practices and standards.
-# - position: UI/UX Designer
-#   company: FanHeat
-#   website: https://www.fanheat.com/
-#   location: Remote
-#   start-date: February 14, 2022
-#   end-date: May 7, 2022
-#   descriptions: 
-- position: UI/UX Designer (Usability Engineer II)
+- position: UI/UX Design Consultant
+  company: Kwik.Insure
+  employee-type: Part-time
+  website: https://www.kwik.insure/
+  location: Taguig, Manila, PH
+  start-date: October 5, 2020
+  end-date: March 15, 2022
+  descriptions: 
+- position: Usability Engineer II
   company: Samsung Research Philippines
+  employee-type: Full-time
   website: https://research.samsung.com/srph
   location: Taguig, Manila, PH
   start-date: March 9, 2020
@@ -60,8 +64,9 @@
   - Define and work on User Experience core principles and concepts for User Interface design using derived insights and analysis that provides meaningful values to target users and the company
   - Manage and oversee as to ensure that commercializable output information architecture, workflow, and layout are materialized within the given timeline and resources by carrying out detailed scenarios created on the UX core principles and concept.
   - Perform self-validation such as rapid prototyping and external validation, and incorporate the validation outcome to the final output for improvement.
-- position: UI/UX Designer (Svc Info Developer III)
+- position: Svc Info Developer III
   company: DXC Technology
+  employee-type: Full-time
   website: https://www.dxc.technology/
   location: Taguig, Manila, PH
   start-date: November 5, 2018
@@ -76,8 +81,9 @@
   - Provides guidance and mentoring to less-experienced staff members
 - position: Senior UI/UX Designer
   company: EmployeeConnect
+  employee-type: Full-time
   website: https://www.employeeconnect.com/
-  location: Offshore (Sydney, NSW, AU)
+  location: Sydney, NSW, AU
   start-date: October 3, 2017
   end-date: September 17, 2018
   descriptions:
@@ -89,6 +95,7 @@
   - Analyze and troubleshoot UI/UX problems (e.g. responsiveness) and create on-brand design solutions that meet business goals and requirements
 - position: UI Designer &amp; Front-End Developer
   company: Sprout Solutions
+  employee-type: Full-time
   website: https://sprout.ph/
   location: Taguig, Manila, PH
   start-date: April 3, 2017
@@ -104,6 +111,7 @@
   - Ensure high quality graphic standards and brand consistency
 - position: User Interface Designer
   company: Trend Micro Philippines
+  employee-type: Full-time
   website: https://www.trendmicro.com
   location: Pasig, Manila, PH
   start-date: May 18, 2015
@@ -127,6 +135,7 @@
     url: 
 - position: Web Developer
   company: TaskUs
+  employee-type: Full-time
   website: https://www.taskus.com
   location: Bacoor, Cavite, PH
   start-date: August 11, 2014
@@ -138,6 +147,7 @@
   - Helps the group conceptualize new programs for the learning portal
 - position: Graphic Designer
   company: Sports Bookie Online
+  employee-type: Full-time
   website: http://www.runningmancorporation.com/
   location: Makati, Manila, PH
   start-date: April 7, 2014

@@ -8,11 +8,11 @@ transition:
 <div class="heading">
   <div class="row">
     <div class="col-md-4 text-center text-md-left">
-      <img class="profile-picture rounded" src="{{ site.baseurl }}/assets/img/profile-picture.jpg" alt="" />
+      <img class="profile-picture rounded" src="{{ site.baseurl }}/assets/img/profile-picture.webp" alt="" />
     </div>
     <div class="col-md-8 align-self-center text-center text-md-left">
       <h1 class="h2">{{ site.data.personal-information.name }}</h1>
-      <p class="lead">{{ site.data.personal-information.title }}</p>
+      <p class="h4 font-weight-normal">{{ site.data.personal-information.title }}</p>
       <ul class="list-unstyled list-columns two-columns" id="details-section">
         <li>
           <a href="tel:{{ site.data.personal-information.mobile-number }}"><i class="fas fa-mobile-alt"></i>{{ site.data.personal-information.mobile-number }}</a>
@@ -69,6 +69,14 @@ transition:
       {% endfor %}
     </ul>
 
+
+    <br class="d-none d-print-block">
+    <br class="d-none d-print-block">
+    <br class="d-none d-print-block">
+    <br class="d-none d-print-block">
+    <br class="d-none d-print-block">
+    <br class="d-none d-print-block">
+
     <h3 class="h4">Trainings/Seminars</h3>
     <ul class="list-unstyled" id="reference-section">
       {% for workshop in site.data.resume.trainings-and-seminars %}
@@ -116,17 +124,20 @@ transition:
 
   <div class="col-12 col-md-8">
 
-    <h2 class="h3">Work Experiences</h2>
-    {% for work in site.data.resume.employment-history %}
+    <h2 class="h3">Professional Experience</h2>
+    {% for task in site.data.resume.professional-experience %}
     <div class="row">
       <div class="col">
-        <p>
-          <span><b>{{ work.position }}</b></span><br/>
-          {{ work.company }} - {{ work.location }}
-        </p>
+        <span><b>{{ task.name }}</b></span><br/>
+        {% if task.descriptions %}
+          <ul class="small pl-3">
+            {% for desciption in task.descriptions %}
+            <li>{{ desciption }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </div>
-      <div class="col-auto">{{ work.start-date | date: "%b %Y" }} <i>to</i> {% if work.end-date %}{{ work.end-date | date: "%b %Y" }}{% else %}Present{% endif %}</div>
-      <div class="col-12 pl-0 pr-0">
+      <!-- <div class="col-12 pl-0 pr-0">
         {% if work.descriptions %}
           <ul class="small">
             {% for desciption in work.descriptions %}
@@ -134,30 +145,16 @@ transition:
             {% endfor %}
           </ul>
         {% endif %}
-      </div>
-
-      <!-- {% if work.summary %}
-        {% for summary in work.summary %}
-          <p>{{ summary }}</p>
-        {% endfor %}
-        {% else %}
-        <ul class="small">
-          {% for desciption in work.descriptions %}
-          <li>{{ desciption }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %} -->
-
-      <!-- {% if work.projects %}
-        <p><b>Key Projects/Achievements</b></p>
-        <ul>
-          {% for project in work.projects %}
-          <li><a target="_blank" href="{{ project.url }}">{{ project.name }}</a></li>
-          {% endfor %}
-        </ul>
-      {% endif %} -->
-
+      </div> -->
     </div>
+    {% endfor %}
+
+    <h2 class="h3">Work Experiences</h2>
+    {% for work in site.data.resume.employment-history %}
+      <p>
+        <span class="text-muted small text-uppercase">{{ work.start-date | date: "%B %Y" }} – {% if work.end-date %}{{ work.end-date | date: "%B %Y" }}{% else %}Present{% endif %} | {{ work.employee-type }}</span> <br>
+        <b>{{ work.position }}</b>, {{ work.company }}, {{ work.location }}
+      </p>
     {% endfor %}
 
     <h3><b>Education</b></h3>
