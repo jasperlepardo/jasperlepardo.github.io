@@ -6,7 +6,11 @@ description: A knowledge based support portal and case management tool for its e
 tags:
     - UI/UX
     - HTML/CSS
-categories: "featured"
+categories:
 
 external-url: https://success.trendmicro.com
+
+figma:
+
+live-site:
 ---

@@ -9,5 +9,7 @@ tags:
     - HTML/CSS
 categories: "featured"
 
-external-url: 
+figma:
+
+live-site:
 ---
