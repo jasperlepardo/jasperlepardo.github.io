@@ -20,7 +20,7 @@
   website: http://www.cloudeats.com
   location: Taguig, Manila, PH
   start-date: November 14, 2022
-  end-date: 
+  end-date: July 31, 2024
   descriptions: 
   - Collaborate with project management and engineering to define and implement innovative solutions for the product direction, visuals and experience;
   - Execute all visual design stages from concept to final hand-off to engineering;
@@ -44,14 +44,14 @@
   - Present and defend designs and key milestone deliverable to peers and executive level stakeholders;
   - Conduct user research and evaluate user feedback;
   - Establish and promote design guidelines, best practices and standards.
-- position: UI/UX Design Consultant
-  company: Kwik.Insure
-  employee-type: Part-time
-  website: https://www.kwik.insure/
-  location: Taguig, Manila, PH
-  start-date: October 5, 2020
-  end-date: March 15, 2022
-  descriptions: 
+# - position: UI/UX Design Consultant
+#   company: Kwik.Insure
+#   employee-type: Part-time
+#   website: https://www.kwik.insure/
+#   location: Taguig, Manila, PH
+#   start-date: October 5, 2020
+#   end-date: March 15, 2022
+#   descriptions: 
 - position: Usability Engineer II
   company: Samsung Research Philippines
   employee-type: Full-time
