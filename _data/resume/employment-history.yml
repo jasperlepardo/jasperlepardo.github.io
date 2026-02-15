@@ -23,7 +23,29 @@
 #     description: Hotel Analytics tool
 #   - name: Phollowup
 #     description: Appointment Management System for Small Business
-#   highlight: false
+#   highlight: true
+
+- position: Senior UI/UX Designer
+  company: BDO Unibank Inc. (Seven Seven Global Services Inc)
+  employee-type: Full-time
+  website: https://www.bdo.com.ph/
+  location: Pasig, Manila, PH
+  start-date: January 26, 2026
+  end-date: 
+  descriptions: 
+  - Collaborate with project management and engineering to define and implement innovative solutions for the product direction, visuals and experience;
+  - Execute all visual design stages from concept to final hand-off to engineering;
+  - Conceptualise original ideas that bring simplicity and user friendliness to complex design roadblocks;
+  - Create wire-frames, storyboards, user flows, process flows and site maps to effectively communicate interaction and design ideas;
+  - Present and defend designs and key milestone deliverable to peers and executive level stakeholders;
+  - Conduct user research and evaluate user feedback;
+  - Establish and promote design guidelines, best practices and standards.
+  projects:
+  - name: BDO Online Mobile and Web
+    description:
+  - name: BDO Pay
+    description:
+  highlight: true
 
 - position: Senior UI/UX Designer
   company: Oncore Services (Microsourcing)
@@ -31,7 +53,7 @@
   website: https://www.oncoreservices.com/
   location: Sydney, NSW, AU
   start-date: September 02, 2024
-  end-date: 
+  end-date: December 24, 2025
   descriptions: 
   - Collaborate with project management and engineering to define and implement innovative solutions for the product direction, visuals and experience;
   - Execute all visual design stages from concept to final hand-off to engineering;
